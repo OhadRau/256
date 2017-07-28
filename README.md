@@ -10,7 +10,7 @@ Start by creating your bot and groupchat. Write down the API token and your grou
 $ sqlite3 256.db < schema.sql
 $ echo $MY_BOT_API_TOKEN > bot.token
 $ echo $MY_GROUP_ID > group.id
-$ 
+$ ruby bot.rb
 ```
 
 Add your bot to the group then leave and rejoin.
